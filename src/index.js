@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './setup/index.css';
-import App from './setup/App';
 import Workshop from './Workshop';
 
 // var ajax = new XMLHttpRequest();
