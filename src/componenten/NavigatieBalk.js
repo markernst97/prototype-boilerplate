@@ -11,10 +11,3 @@ import React from 'react';
 export default function NavigatieBalk (props) {
     return <div style={{width: ' 100%', height: '50px', backgroundColor: props.achtergrondkleur, color: props.tekstkleur}}>Navigatiebalk</div>
 }
-
-NavigatieBalk.propTypes = {
-    /** Veranderd de tekstkleur */
-    tekstkleur: PropTypes.string,
-    /** Veranderd de achtergrondkleur */
-    achtergrondkleur: PropTypes.string
-  }
