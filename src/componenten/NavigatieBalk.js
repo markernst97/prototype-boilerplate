@@ -8,6 +8,8 @@ import React from 'react';
  * Gebruik 'achtergrondkleur' om de achtergrond te veranderen. Voorbeeld achtergrondkleur='wit'
  *  
  */
+
+ //hallo
 export default function NavigatieBalk (props) {
     return <div style={{width: ' 100%', height: '50px', backgroundColor: props.achtergrondkleur, color: props.tekstkleur}}>Navigatiebalk</div>
 }
